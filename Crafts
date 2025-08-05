@@ -1,0 +1,9 @@
+onPlayerAttemptCraft = (playerId, itemName, craftingIdx) => {
+    let enchants = ["prtectn","atkSpd","critDmg","damage", "brkSpd","momentum","mineAur","mineYld","digAur","farmAur","farmYld","lumbAur","lumbYld","arrwSpd","arrwDmg","qckChrg","hKnock","vKnock",]
+    if (itemName == "Wood Enchanting Table"){
+      //logic to get aura api.get
+      const randomenchant = enchants[Math.floor(Math.random() * enchants.length)];
+      const randomLevel = Math.floor(Math.random() * 11);
+    
+    }
+}
